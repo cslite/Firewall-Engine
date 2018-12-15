@@ -80,6 +80,8 @@ This file contains the rules to be consulted while deciding fate of the packet.
 
 _Each rule must end with a semi-colon (;). Only the last rule which is the default rule ends with a Full-Stop (.)_
 
+These rules are based on the **Firewall Rule Language**, given [here](https://www.ibm.com/support/knowledgecenter/en/SSB2MG_4.6.0/com.ibm.ips.doc/concepts/firewall_rules_language.htm).
+
 ### Firewall Clauses (Examples of valid Clauses)
 You can make a rule consisting of a single clause, or multiple clauses chained together.
 
