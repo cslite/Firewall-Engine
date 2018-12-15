@@ -25,9 +25,9 @@ This file contains the rules to be consulted while deciding fate of the packet.
 1. In SWI-Prolog, consult only the `firewall_engine.pl` file. It internally uses `rules_database.pl` which you CAN MODIFY as 
    per requirement.
 
-2. `rules_database.pl` initially contains some sample rules. These rules can be changed and new rules can be added (For Syntax, Refer [Rules Format](/#rules-format)). 
+2. `rules_database.pl` initially contains some sample rules. These rules can be changed and new rules can be added (For Syntax, Refer [Rules Format](/README.md#rules-format)). 
 
-3. Refer [Packet Format](/#packet-format) to know, how to pass valid packets to the engine. These are queries. 
+3. Refer [Packet Format](/README.md#packet-format) to know, how to pass valid packets to the engine. These are queries. 
 
 4. Based on an input network packet and the rules mentioned in the `rules_database.pl`, a single string is the output(viz. reject, accept, drop).
 
